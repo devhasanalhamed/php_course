@@ -19,4 +19,4 @@ echo nl2br("Hello
 PHP "); // Create multiple line on client side using nl2br function
 echo "<br>";
 // The reason of that php does not allow multiple line on printing like
-// java script that is because it's server side rendering
+// javascript that is because it's server side rendering
