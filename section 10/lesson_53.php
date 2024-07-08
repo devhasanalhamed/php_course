@@ -7,7 +7,6 @@ String functions
 - stripos(String[Required], Search[Required], Offset[Optional]) -Case Insensitive- => find() is alias
 - strripos(String[Required], Search[Required], Offset[Optional]) -Case Insensitive- => rfind() is alias
 - substr_count(String[Required], Search[Required], Offset[Optional]) -Case Sensitive- => count() is alias
-- strspn(String[Required], Search[Required], Offset[Optional]) -Case Sensitive- => span() is alias
  */
 
 //  string position will return the position of a string you search
