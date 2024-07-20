@@ -15,7 +15,7 @@ Array functions
 - array_pad(Array[Required], Size[Required], Value[Optional])
     - pad array to the specified length with a value
     - negative value add elements before original items
-    - if size < array length nothing will be deleted
+    - if size < array length, nothing will be deleted
 
 - array_product(Array[Required])
     - calculate the product of values in an array => return int || float
