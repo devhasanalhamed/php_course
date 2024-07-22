@@ -11,7 +11,7 @@ File system functions
     [w] for write => pointer at the beginning + truncate to 0 length => create if not exists
     [w+] for read and write => pointer at the beginning + truncate to 0 length => create if not exists
 
-    fget(FileHandle[Required], Length[Optional])
+    fgets(FileHandle[Required], Length[Optional])
         get a line from an open file
         length => number of bytes to read || end of line if no length
     
