@@ -20,7 +20,7 @@ class Database
     }
 
 
-    public function execute($query, $parameters)
+    public function execute($query, $parameters = null)
     {
         $statement = $this->connection->prepare($query);
 
