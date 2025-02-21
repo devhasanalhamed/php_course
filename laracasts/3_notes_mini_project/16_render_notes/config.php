@@ -5,7 +5,7 @@ return  [
         'host' => 'localhost',
         'user' => 'root',
         'port' => 3306,
-        'dbname' => 'laracasts',
+        'dbname' => 'notes',
         'charset' => 'utf8mb4',
     ],
 ];
