@@ -4,12 +4,12 @@
 
 $url = parse_url($_SERVER['REQUEST_URI'])['path'];
 
-dd(parse_url($_SERVER['REQUEST_URI']));
 
 $routes = [
     '/' => 'controllers/index.php',
     '/about' => 'controllers/about.php',
     '/notes' => 'controllers/notes.php',
+    '/note' => 'controllers/note.php',
     '/contact' => 'controllers/contact.php',
 ];
 
